@@ -47,9 +47,9 @@ else if(dayInfo.type == 2)
 // 获取当日节假日信息
 function getDayInfo() {
     // 日期模拟
-    let jjrUrl = "https://www.mxnzp.com/api/holiday/single/20211030";
-    // let jjrUrl = "https://www.mxnzp.com/api/holiday/single/"+today;
-    var res = http.get(jjrUrl, {
+    //let jjrUrl = "https://www.mxnzp.com/api/holiday/single/20211030";
+    let jjrUrl = "https://www.mxnzp.com/api/holiday/single/"+today;
+    let res = http.get(jjrUrl, {
         headers: {
             'app_id': 'wqwxtfk1kqsxlllp',
             'app_secret': 'V0tSZW5DdzZhNUM3TEV5bVRFUDlNUT09'
